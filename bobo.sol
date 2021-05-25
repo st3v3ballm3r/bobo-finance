@@ -1,5 +1,5 @@
 / 
-Submitted for verification at BscScan.com on 2021-05-22
+Submitted for verification at BscScan.com on 2021-05-25
 /
 /...............................................................................
 ................................................................................
@@ -33,6 +33,7 @@ Submitted for verification at BscScan.com on 2021-05-22
 //
 website: b0b0.finance
 telegram: https://t.me/b0b0finance
+8% tax per tx. Just another safemoon fork, you know the drill... If you can meme, you can dream.
 //
 pragma solidity ^0.6.12;
 // SPDX-License-Identifier: Unlicensed
@@ -714,7 +715,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract Bobomoon is Context, IERC20, Ownable {
+contract B0b0finance is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -732,8 +733,8 @@ contract Bobomoon is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "BoboMoon";
-    string private _symbol = "BOBOMOON";
+    string private _name = "B0b0finance";
+    string private _symbol = "b0b0";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 4;
